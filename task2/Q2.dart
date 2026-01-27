@@ -7,3 +7,7 @@ void main() {
   print(
     "Country: $country, Year: $year, Weight: $weight, Likes coding: $likesCoding",
   );
+
+  weight = 47.2;
+  print("Updated weight: $weight");
+}
