@@ -1,0 +1,17 @@
+void main() {
+  Map<String, dynamic> book = {
+    "title": "Dart Guide",
+    "pages": 120,
+    "price": 19.99,
+  };
+
+  print(book["title"]);
+
+  book["price"] = 22.50;
+  book["author"] = "Ahmed";
+
+  print(book.keys);
+  print(book.values);
+
+  print(book.containsKey("pages"));
+}
